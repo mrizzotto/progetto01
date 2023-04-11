@@ -7,5 +7,7 @@ $database = "ma_rizzotto";
 
 $connessione = mysqli_connect($server , $utente , $password , $database);
 
-
+if($connessione){
+echo"Sei connesso"
+}
 ?>
